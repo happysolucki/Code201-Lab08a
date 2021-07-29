@@ -1,0 +1,91 @@
+body {
+  color: white;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  margin-bottom: 35px;
+}
+
+.header-flx {
+  height: 70px;
+  width: 960px;
+  display: flex;
+  align-items: center;
+}
+
+.header-flx > div {
+  margin-right: 35px;
+}
+
+.body-container {
+  height: auto;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.box-large {
+  /* width: 960px; */
+  height: 450px;
+  background-color: red;
+  margin-bottom: 35px;
+}
+
+.box-triplet {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.box-triplet > div {
+  width: 300px;
+  height: 375px;
+  background-color: orange;
+}
+
+.box-twins {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-twins > div {
+  width: 480px;
+  height: 400px;
+  margin-bottom: 35px;
+}
+
+.twin-left {
+  background-color: blue;
+  /* margin-right: 35px; */
+}
+
+.twin-right {
+  color: black;
+}
+
+.twin-right > * {
+  margin-left: 30px;
+}
+
+.action-button {
+  background-color: green;
+  color: #fff;
+  max-width: 150px;
+  padding: 0.625rem 0.2rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.action-button:hover {
+  background-color: violet;
+  cursor: pointer;
+}
+
+.box-footer {
+  height: 70px;
+  background-color: gray;
+}
